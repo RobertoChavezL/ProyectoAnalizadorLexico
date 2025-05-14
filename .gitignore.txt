@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos generados que no quieres subir (si los puedes regenerar)
+# ejemplo_complejo_output.json  # Descomenta esta línea si este archivo se genera siempre y no quieres subirlo
+
+# Entornos virtuales (si usas alguno como venv, env)
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Dependencias grandes que se pueden instalar por separado
+# antlr-4.13.2-complete.jar # Si este JAR se puede obtener fácilmente o se especifica como dependencia, es mejor ignorarlo.
+                            # Si es esencial y específico para el proyecto, podrías subirlo.
+                            # Por ahora, lo dejaremos comentado (significa que SÍ se subiría).
+                            # Si decides NO subirlo, quita el '#' del inicio de la línea.
